@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crowdfunding</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="project-card">
+  <h2>Save Animals</h2>
+  <p>Help injured animals get treatment</p>
+
+  <div class="progress">
+    <div id="progress-bar" class="progress-bar"></div>
+  </div>
+
+  <p id="fund-text">₹0 raised of ₹10000</p>
+
+  <input type="number" id="amount" placeholder="Enter amount">
+  <button onclick="donate()">Donate</button>
+</div>
+
+<!-- Payment Popup -->
+<div id="paymentBox" class="popup">
+  <h3>Demo Payment</h3>
+  <p>This is a demo crowdfunding platform.</p>
+  <p>No real payment is required.</p>
+
+  <button onclick="confirmPayment()">Confirm Donation</button>
+</div>
+  
+
+<!-- Link JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
